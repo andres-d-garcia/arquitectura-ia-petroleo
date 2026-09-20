@@ -1,3 +1,9 @@
+"""
+Modelo de Mantenimiento Predictivo.
+Utiliza Isolation Forest (Aprendizaje No Supervisado) para detectar anomalías
+en vibración y temperatura de maquinaria pesada.
+"""
+
 import pandas as pd
 from sklearn.ensemble import IsolationForest
 

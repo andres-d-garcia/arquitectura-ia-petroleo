@@ -1,3 +1,8 @@
+"""
+Dashboard Básico en Streamlit.
+Prueba de concepto inicial para la visualización interactiva de datos.
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np

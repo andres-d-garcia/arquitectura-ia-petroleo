@@ -1,3 +1,8 @@
+"""
+Modelo SARIMA para Series Temporales.
+Extensión de ARIMA que incluye patrones estacionales (Seasonality) para predicciones cíclicas.
+"""
+
 import pandas as pd
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 

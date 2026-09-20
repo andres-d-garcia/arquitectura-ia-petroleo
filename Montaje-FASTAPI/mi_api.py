@@ -1,3 +1,8 @@
+"""
+Servidor API Básico (FastAPI).
+Introducción a la creación de endpoints web para exponer modelos de Machine Learning.
+"""
+
 from fastapi import FastAPI
 import uvicorn
 

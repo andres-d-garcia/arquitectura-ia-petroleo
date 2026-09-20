@@ -1,3 +1,8 @@
+"""
+Modelo ARIMA para Series Temporales.
+Implementación del modelo AutoRegresivo Integrado de Media Móvil para predicción de producción petrolera.
+"""
+
 import pandas as pd
 from statsmodels.tsa.arima.model import ARIMA
 

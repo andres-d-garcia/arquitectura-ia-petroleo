@@ -1,3 +1,8 @@
+"""
+Pruebas iniciales de Machine Learning.
+Script de exploración y manipulación básica de datos (Pandas) y modelos de Scikit-Learn.
+"""
+
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeClassifier

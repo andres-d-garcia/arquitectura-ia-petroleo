@@ -1,3 +1,8 @@
+"""
+Modelo de Regresión Lineal.
+Entrenamiento de un algoritmo básico de Machine Learning para predecir tendencias numéricas.
+"""
+
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 import pandas as pd
@@ -20,3 +25,4 @@ nueva_presion = pd.DataFrame({'Presion_PSI': [3700]})
 prediccion = modelo.predict(nueva_presion)
 
 print(f'Predicción de producción para una presión de 3700 PSI: {prediccion[0]} bbls')
+Docs: Añadir docstrings descriptivos a todos los scripts del proyecto

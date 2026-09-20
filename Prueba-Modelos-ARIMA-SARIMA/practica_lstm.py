@@ -1,3 +1,8 @@
+"""
+Red Neuronal Recurrente (LSTM) en PyTorch.
+Arquitectura de Deep Learning diseñada para predecir series temporales complejas con memoria a largo plazo.
+"""
+
 import torch
 import torch.nn as nn
 import torch.optim as optim

@@ -1,3 +1,8 @@
+"""
+Análisis Exploratorio de Series Temporales.
+Manipulación y visualización de datos históricos ordenados cronológicamente usando Pandas.
+"""
+
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 pd.set_option('display.max_columns', None)
