@@ -1,0 +1,20 @@
+# Bases de datos locales
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+
+# Modelos pesados de Inteligencia Artificial
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Archivos de entorno y contraseñas
+.env
+.secrets
+
+# Caché de Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
