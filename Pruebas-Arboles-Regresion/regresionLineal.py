@@ -25,4 +25,3 @@ nueva_presion = pd.DataFrame({'Presion_PSI': [3700]})
 prediccion = modelo.predict(nueva_presion)
 
 print(f'Predicción de producción para una presión de 3700 PSI: {prediccion[0]} bbls')
-Docs: Añadir docstrings descriptivos a todos los scripts del proyecto
